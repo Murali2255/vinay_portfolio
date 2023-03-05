@@ -502,7 +502,7 @@ a.hoverline:hover {
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
-
+/* 
 #skills .col img.responsive-img {
   margin: 0 auto;
   max-height: 100px;
@@ -510,7 +510,22 @@ a.hoverline:hover {
   text-align: center;
   vertical-align: middle;
   display: table-cell;
+} */
+
+.responsive-img{
+   height: 150px !important;
+   width: 300px !important;
 }
+
+@media (max-width: 600px) {
+  .responsive-img{
+    height: 100px !important;
+    width: 200px !important;
+ }
+
+}
+
+
 
 .card.large .card-content p {
   color: inherit;
